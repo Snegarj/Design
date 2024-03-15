@@ -1,0 +1,1138 @@
+body {
+    background-color: #e5e5e585;
+    margin: 0;
+    font-family: 'Inter';
+}
+i{
+    cursor: pointer;
+}
+h3{
+    font-weight: 600;
+}
+button {
+    font-family: 'Inter';
+    cursor: pointer;
+}
+tr:hover{
+    background: rgba(128, 128, 128, 0.151);
+}
+
+header {
+    height: 75px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    padding: auto;
+}
+
+header .inline {
+    width: 20%;
+    color: #1BCBF2;
+    margin: auto 3%;
+    display: flex;
+    flex-direction: row;
+    font-family: "Audiowide", sans-serif;
+    font-size: large;
+}
+
+header .inline i {
+    color: #1BCBF2;
+    margin: auto 6%;
+    cursor: pointer;
+}
+
+header .center {
+    width: 60%;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+
+header .center span {
+    margin: auto 3%;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: large;
+    color: #868C90;
+    cursor: pointer;
+}
+
+header .center span {
+    padding-bottom: 10px;
+}
+
+header .center span:first {
+    color: black
+}
+
+header .center span:first-child {
+    color: black
+}
+
+header .center span.blue {
+    border-bottom: 3px solid #1BCBF2;
+    border-radius: 2px;
+    margin: 0;
+}
+
+header .right {
+    display: flex;
+    flex-direction: row;
+    width: 22%;
+    justify-content: center;
+}
+
+header .right i {
+    font-size: larger;
+    font-weight: 700;
+    margin: auto 7%;
+    color: gray;
+    cursor: pointer;
+}
+
+.container {
+    max-height: 100%;
+    padding: 5% 0;
+  
+
+}
+
+section {
+    margin-left: auto;
+    margin-right: auto;
+}
+.section1 .inline.main  ,.section2 .inline.main {
+    flex-wrap: wrap;}
+
+.section1 .inline ,.section2 .main {
+    display: flex;
+
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    justify-content: space-evenly;
+}
+
+.section1 .left ,.section2 .left ,.section2 .right{
+    width: 20%;
+    height: 290px;
+    background: #FFFFFF;
+    color: black;
+    border-radius: 16px;
+}
+.section1 .left 
+.section1 .fixed {
+    padding: 3% 5%;
+}
+
+.section1 .left .fixed .inline {
+    display: flex;
+    flex-direction: row;
+        justify-content: space-between;
+        padding: 1% 7%;
+    
+}
+
+.section1 .fixed h3,.section2 h3 {
+    font-family:"Inter";
+}
+
+.section1 .fixed .fa,
+.section1 .fixed .fas.fa-wallet {
+    color: #DCE0E2;
+    font-size: medium;
+    margin: auto 0;
+}
+i#xlarge{
+    font-size: x-large;
+    color: #868C90;
+    
+}
+span{
+    font-family:'Inter';
+}
+span#xlarge{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size:xx-large;
+    color:black;
+    font-weight:bold;
+ font-variant-numeric: lining-nums tabular-nums;
+  
+}
+
+
+
+.black {
+    color: black
+}
+
+.section1 .left .scroll {
+    padding: 0 7% 7% 7%;
+    overflow-x: auto;
+    overflow-y: auto;
+
+    max-height: 32%;
+}
+
+hr {
+    width: 100%;
+    border-top: 1px solid #f3f5f973;
+}
+
+.section1 .left table {
+    width: 100%;
+}
+
+.section1 .left table tr {
+    margin: 3% auto;
+}
+.section1 .left table tr:nth-child(1) {
+    margin: 1% auto 0 auto;
+}
+
+.section1 .left table:first-child td {
+    width: 5%;
+}
+
+.section1 .left table td {
+    width: fit-content
+}
+
+.section1 .left p {
+    color: #868C90;
+    font-size: 11px;
+    padding: 0 5%;
+    font-weight: 200;
+}
+
+.section1 .left .fa.fa-angle-double-down {
+    color: #FC5C65;
+    font-size: small;
+}
+
+.section1 .left td {
+    font-size: small;
+    color: #FC5C65
+}
+
+.section1 .left td span.grey {
+    font-size: small;
+    color: #DCE0E2
+}
+
+.section1 .left td .fa.fa-angle-double-up,
+.section1 .left td .green {
+    color: #26DE81;
+    font-size: small;
+}
+
+
+/*Section1 Center */
+
+.section1 .center {
+    width: 18%;
+
+    padding: 2%;
+    color: white;
+    background: linear-gradient(to bottom, #373B44 7%, #4286F4 100%);
+    border-radius: 16px;
+    filter: drop-shadow(24px 2px 16px rgba(66, 134, 244, 0.25));
+}
+
+.section1 .center #center {
+    display: flex;
+    flex-direction: column;
+    margin: auto
+}
+
+.section1 #center span#ultimate {
+    font-size: x-large;
+    font-weight: 700;
+    font-family: "Inter";
+}
+
+.section1 #center span {
+    font-size: 44px;
+    font-weight: 700;
+    font-family: "Inter";
+    margin: 0 0 3% 0;
+}
+
+.section1 .center button {
+    color: white;
+    margin: 10% 0 0 0;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 26px;
+    width: fit-content;
+    padding: 5%;
+    height: fit-content;
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Inter";
+    font-size: smaller;
+}
+
+
+/*SECTION1  RIGHT */
+
+.section1 .right  {
+    filter: drop-shadow(4px 0px 2px rgba(255, 255, 255, 0.15));
+    width: 40%;
+    height: 290px;
+    background: #FFFFFF;
+    color: black;
+    border-radius: 16px;
+}
+
+.section1 .right .fixed {
+    padding: 1% 5%;
+}
+
+.section1 .right .inline1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section1 .right .inline1 .inline {
+    margin: auto 0;
+}
+
+.section1 .right .inline1 .inline .fa.fa-search {
+    margin: auto 0 auto 7%;
+}
+
+.inline {
+    display: flex;
+    flex-direction: row;
+}
+
+.grey {
+    color: #DCE0E2;
+}
+
+.darkgrey {
+    color: #868C90
+}
+
+.section1 .right .inline2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section1 .right .inline2 .inline {
+    display: flex;
+    flex-direction: row;
+}
+
+.join {
+    border: 1px solid #DCE0E2;
+    display: flex;
+    max-width: 25%;
+    /* margin: auto 5%; */
+    justify-content: space-between;
+}
+
+.section1 .right .inline2 input {
+    background: transparent;
+    border-right: 1px solid #DCE0E2;
+    max-width: 40%;
+    margin: auto 0;
+    height: 100%;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    text-align: left;
+    color: black;
+    font-family: "Inter";
+}
+
+.section1 .right .inline2 .inline {
+    display: inline;
+}
+
+.section1 .right .inline2 select option {
+    border-left: 1px solid #DCE0E2;
+    border: none
+}
+
+.section1 .right .inline2 select {
+    background: transparent;
+    border-left: 1px solid #DCE0E2;
+    border: none;
+    background: transparent;
+    color: #DCE0E2;
+    text-align: center;
+    font-family: "Inter";
+}
+
+.section1 .right .inline2 button {
+    width: 86px;
+    border: none;
+    height: 100%;
+    height: 30px;
+    color: white;
+    border-radius: 16px;
+}
+
+.section1 .right .inline2 button.green {
+    background: #26DE8199;
+}
+
+.section1 .right .inline2 button.grey {
+    background: transparent;
+    color: #868C90;
+    border: 1px solid #DCE0E2;
+    margin-left: 3%;
+}
+
+.btn {
+    display: inherit;
+    width: 40%;
+}
+
+.section1 .right td {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section1 .right td .fa.fa-refresh {
+    color: #F2911B99;
+    font-size: large;
+}
+
+.section1 .right td .block .grey {
+    font-size: small;
+}
+
+.section1 .right td .block .darkgrey {
+    font-size: medium;
+}
+
+.section1 .right td .block .fa.fa-arrow-right,
+#orange {
+    color: #F2911B99;
+}
+
+
+/* .section1 .right Scroll*/
+
+.section1 .right .scroll {
+    padding: auto 3%;
+    padding:1% 2%;
+    overflow-x: auto;
+    overflow-y: auto;
+
+    max-height: 45%;
+}
+.section1 .right .scroll table {
+    width: 100%
+}
+
+.section1 .right .scroll tr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.section1 .right .scroll tr td {
+    margin: auto
+}
+
+.section1 .right .scroll tr td.block {
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+}
+
+.section1 .right .scroll tr td.block span {
+    margin: 3% 0;
+}
+
+.section1 .right .scroll tr #grey {
+    margin: auto;
+    font-size: small;
+    color: #DCE0E2
+}
+
+.green,
+#green {
+    color: #26DE8199
+}
+
+.blue {
+    color: #0081C299;
+}
+
+#blue {
+    color: #0081C299;
+    font-size: small
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+    border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(224, 215, 215, 0.877);
+}
+
+/*SECTION 2 */
+.section2{
+    width:100%;
+    margin:3% 0
+    
+}
+table{
+    width:100%
+}
+
+.left-top {
+    padding: 1% 7%;
+}
+.section2 .left {
+ 
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+        justify-content: space-evenly;
+     
+        height: 290px;
+    
+}
+.section2 .left-top,.center-fixed{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.left-top {
+    height: 42px;
+    margin-top: 10px;}
+.section2 .left-top pre,.center-fixed pre ,.center-fixedi#grey {
+    margin: auto 
+}
+.section2  .left-top .inline h3  {
+    margin: auto 
+}
+.section2 .left-top i#grey {
+    margin: auto 0;
+}
+.section2 img{
+    width: 20px;
+    height: 20px;
+  
+
+
+}
+.section2 .left-bottom {
+    height: 220px;}
+
+pre{
+    font-size:large;
+    font-family: "Inter";
+}
+.section2 tr td:nth-child(1){
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+.section2  .left-top .inline h3 ,.center-fixed h3{
+    
+margin-right:3%
+}
+.section2  .left-top select ,option{
+    color:#DCE0E2;
+    border:none;
+    font-weight: bold;
+    outline: none;
+    font-size: 15px;
+}
+#grey{
+    color:#DCE0E2;
+}
+
+.section2 tr {
+    text-align: left;
+
+}
+.section2 td {
+    text-align: center;
+    padding: 4% 0;
+}
+.section2  td:nth-child(3n),.section1 .left  td:nth-child(3n) {
+    text-align: right;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size:small;
+    font-weight: bold;
+color:#2a3135da;
+
+  
+}.section2  td:nth-child(2n){
+    text-align: left;
+}
+
+.section2 td:nth-child(1),.section2 td:nth-child(4),.section2 td:nth-child(5)
+{ 
+    text-align: left;
+    width: 20%;
+}
+.section2 .left-bottom table{
+    height:80%
+}
+.section2 .left-bottom{
+    width:80%;
+    margin: auto;
+}
+.section2 .left-bottom .darkgrey{
+    font-size: small;
+}
+/** center*/
+.Feed{
+    filter: drop-shadow(4px 0px 2px rgba(255, 255, 255, 0.15));
+    width: 37%;
+    padding: 1% 2%;
+    height: 265px;
+
+    background: #FFFFFF;
+    color: black;
+    border-radius: 16px;
+}
+.Feed .center-fixed {
+    width:100%;
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.Feed .center-fixed i{
+    margin:auto 0;
+}
+
+.Feed .center-fixed .inline i#grey{
+    margin:auto 0 auto 15%;
+}
+.Feed .center-scroll  h4{
+   
+    margin:0
+}
+.Feed .center-scroll .block{
+    padding:0;
+    margin:2% 0;
+    border-left: 2px solid #DCE0E2;
+    border-radius: 2px;
+    font-family: 'Inter';
+}
+.Feed .center-scroll .inline1 h4{
+padding: 1%;
+}
+.Feed .center-scroll  .darkgrey{
+    font-size: small;
+    margin-left: 1%;
+}
+.Feed .center-scroll .inline1 , .Feed .center-scroll .inline2{
+display: flex;flex-direction: row;
+justify-content: space-between;
+align-content:center;
+margin:auto 3%;
+font-size: 14px;
+}
+.Feed .block:nth-child(2){
+border-left-color: #26DE81;
+}
+.Feed .block:nth-child(4){
+    border-left-color: #FC5C65;
+    color:#2A3135
+    }
+.Feed .center-scroll .inline2 .orange {
+
+    text-align: left;
+    margin-right:7%;
+    font-size: small;
+
+}
+.orange{
+    color:#F2911B99
+}
+.Feed .center-scroll .inline1  i{
+    margin :auto 0
+}
+.fa.fa-angle-right {
+  text-align:right;
+    width: 5%;
+}
+/**right*/
+.section2 .right{
+    width:20%
+}
+h4{
+    color:#2A3135
+
+}
+.Feed .center-scroll  {
+    height: 73%;
+    overflow-y: auto;
+ 
+}
+/**Right R**/
+
+.Wallet .center-fixed{
+    padding:3% 7% 0 8%;
+    height: 20%;
+}
+.Wallet .center-fixed i{
+    margin: auto 0;
+}
+
+.Wallet .center-fixed  h3{
+    margin: auto;
+}
+.Wallet .center-fixed .fa.fa-search{
+    margin-left: 10%;
+}
+.Wallet  .right-down{
+    padding:0 5%
+}
+.Wallet  .right-down td:nth-child(1){
+    padding:0 
+}
+.right-down .inline{
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.right-down {
+    height: 70%;
+}
+.right-down td{
+padding: 0;
+}
+.right-down .inline{
+    margin:auto;
+
+}
+table{
+    height:100%
+}
+.right-down .block p {
+margin-top: 3%;
+margin-bottom: 2%;
+    text-align: left;
+
+}
+.right-down #star{
+    border-radius: 16px;
+    color: #F2911B99;
+    border:1px solid #F2911B99;
+    padding: 1%;
+    font-size: large;
+   
+
+}
+.right-down  i{
+    margin: auto;
+}
+.right-down table td{
+    font-size: small;
+    margin: auto;
+
+}
+.right-down .fas.fa-coins{
+   color: #DCE0E2;
+   border-radius: 16px;
+
+   border:1px solid #DCE0E2;
+   padding: 10%;
+
+
+}
+
+.right-down .fas.fa-dollar-sign{
+    color:#20BF6B;
+    border-radius:4px;
+  margin: auto;
+  background: #20BF6B1A;
+  text-align: center;
+    padding:30%;
+  
+}
+.right-down .fab.fa-btc{
+    background:#F2911B1A;
+    color:#F2911B;
+    padding:30%;
+    border-radius: 4px;
+}
+
+
+
+    .right-down td img{
+        width: 15px;
+        height: 15px;
+        padding: 30%;
+        background: #0081C21A;
+        border-radius: 4px;
+    }
+    td.block {
+        width: max-content;
+    }
+    /*1020*/
+    @media screen and (max-width:1020px) {
+
+        .section1 .right .scroll {
+            overflow:auto;
+        }
+        .section1 .right .scroll td{
+            padding:0 5px
+        }
+ 
+        span#xlarge {
+
+            font-size: x-large;
+           
+        }
+        .section1 #center span {
+            font-size: xx-large;
+        }
+        
+        .section1 .right .scroll tr td.block {
+font-size: x-small;
+        }
+        .section1 .left td  {
+            font-size:x-small
+        }
+        .section1 .left   td span.green {
+            font-size:x-small
+        }
+
+        .section2 td:nth-child(3n), .section1 .left td:nth-child(3n) {
+        
+            font-size: x-small;
+         
+        }
+        .section1 .left td span.grey {
+            font-size: x-small
+        }
+    }
+    
+/*media query 800*/
+@media screen and (max-width:895px) {
+
+  
+    .section1 .left,.section1 .right,.section2 .right.Wallet,    .section2 .left{
+        height:270px
+    }
+    .Feed{
+        height: 260px;
+    }
+    .section2 .left,       .section1 .left,.section2 .right.Wallet,.section2 .right.Wallet{
+        width:25%
+    }
+    .section1 .center{
+        width:20%;
+        height: 240px;
+    }
+   
+    h3{
+        font-size: medium;
+    }
+    h4{
+        font-size: small;
+    }
+    i#xlarge {
+        font-size: large;
+        color: #868C90;
+    }
+    span#xlarge {
+
+        font-size: medium;
+       
+    }
+    .section1 .center #center {
+        
+        margin: 20% auto;}
+    .section1 #center span {
+        font-size: x-large;
+    }
+    
+    .section1 .right .scroll tr td.block {
+font-size: x-small;
+    }
+    .section1 .left td  {
+        font-size:x-small
+    }
+    .section1 .left   td span.green {
+        font-size:x-small
+    }
+    .section1 .right .scroll tr td#grey {
+
+        font-size: x-small;
+      
+    }
+    .section1 .right .scroll tr td#grey .material-icons{
+        
+        font-size: small;
+    }
+    .section2 td:nth-child(3n), .section1 .left td:nth-child(3n) {
+    
+        font-size: x-small;
+     
+    }
+    select,option{
+        font-size: x-small;
+    }
+    .section1 .left, .section2 .left, .section2 .right.Wallet {
+        width: 25%;
+        
+    }
+input ,button{
+    font-size: x-small;
+}
+.section1 #center span#ultimate {
+    font-size: large;
+    font-weight: 700;
+    font-family: "Inter";
+}
+}
+/*media 710*/
+@media screen and (max-width:710px) {
+    .Feed .center-scroll .inline2 .orange {
+    
+        font-size: x-small;
+    }
+    h4{
+        font-size: x-small;
+    }
+    .section1 #center span#ultimate {
+        font-size: large;}
+    .right-down table td {
+        font-size: x-small;
+        margin: auto;
+    }
+    .Feed .center-scroll .darkgrey {
+        font-size:x-small
+    }
+    .section1 .right td .fa.fa-refresh {
+      
+        font-size: small;
+    }
+    .section2 img {
+        width: 15px;
+        height: 15px;
+    }
+    .section2 .left-bottom .darkgrey {
+        font-size: x-small;
+    }
+    .Feed .center-scroll .inline1 h4 {
+        padding-bottom: 2%;
+    }
+}
+
+@media screen and (max-width:650px){
+    header .right i {
+        font-size: inherit;
+  
+    }
+
+    header .center span {
+     
+        font-size: inherit;
+    }
+    header p{
+        font-size: small;
+    }
+    .section1 .inline .left , .section1 .inline .center , .section2 .left {
+        margin-bottom: 7%;
+        width:40%
+    }
+
+    .section1 .right ,     .section2 .right.Wallet{
+        width: 87%;
+    }
+section {
+    margin-bottom: 7%;
+}
+.container{
+    margin-top: 5%;
+}
+    .section1 .center #center {
+        margin: 7% auto;
+    }
+    .section1 #center span {
+        font-size: xx-large;
+    }
+    .section1 #center span#ultimate {
+        font-size: x-large;
+    }
+    .right-down #star {
+    
+        font-size: x-large;
+    }
+    .right-down table td {
+        font-size:small;
+        margin: auto;
+    }
+    .section2 .right td:nth-child(3n) {
+        font-size: medium;
+    }
+    .section1 .right .scroll tr td.block {
+        font-size: small;
+    }
+    .section1 .right .scroll i{
+        font-size: medium;
+    }
+    .section1 .right td .fa.fa-refresh   {
+    
+        font-size: medium
+    }
+    .section1 .right .scroll td {
+        padding: 0 10px
+    }
+
+    .section1 .right .scroll tr td#grey .material-icons {
+    
+        font-size: large
+    }
+    .section2 td:nth-child(3n), .section1 .left td:nth-child(3n) {
+        font-size: small;
+    }
+    .section2 .left-bottom .darkgrey {
+        font-size: small;
+    }
+    .section1 .left td {
+        font-size: small;
+    }
+    .section1 .left td span.green {
+        font-size: small;
+    }
+}
+
+@media screen and (max-width:470px){
+    header .right i {
+        font-size:small
+  
+    }
+    header .center span {
+        margin: auto 2%}
+        header .inline i {
+      
+            font-size: small;
+        }
+        header .inline i {
+           
+            margin: auto 1%;}
+    header .center span {
+     
+        font-size:small;
+    }
+    header p{
+        font-size: x-small;
+    }
+
+    .section1 .left td {
+        font-size: x-small;
+    }
+    .Feed .center-scroll .inline1 h4 {
+        padding-bottom: 2%;
+        font-weight: 550;
+        color: black;
+    }
+    .section1 .left td span.green {
+        font-size: x-small;
+    }
+    .section2 td:nth-child(3n), .section1 .left td:nth-child(3n) {
+        font-size: x-small;
+    }
+    .section2 .left-bottom .darkgrey {
+        font-size: x-small;
+    }
+    .Feed .center-scroll .darkgrey {
+        font-size: xx-small;
+    }
+    .Feed .center-scroll .inline2 .orange {
+        font-size: xx-small;
+    }
+    .Feed .center-scroll .block {
+        padding: 0;
+        margin-bottom: 10%;
+  }
+  .section2 .left-top select, option {
+
+    font-size: small;
+}
+}
+@media screen and (max-width:400px){
+    .section1 .inline .left ,  .section2 .left {
+        margin-bottom: 7%;
+        width:85%
+    }
+.Feed{
+    width:80%
+}
+.section1 .inline .center {
+    width: 80%;
+}
+    .section1 .right ,     .section2 .right.Wallet{
+        width: 85%;
+    }
+
+    .section1 .left td span.grey {
+        font-size: small;
+    }
+
+    .section1 .left td .fa.fa-angle-double-up,.section1 .left td span.green,.section1 .left td {
+        font-size: medium;
+    }
+    span#xlarge {
+        font-size: large;
+    }
+    .section1 .center #center {
+        margin: 7% 5%;
+    }
+    .section2 .left-bottom .darkgrey {
+        font-size: medium;
+    }
+    .section2 td:nth-child(3n), .section1 .left td:nth-child(3n) {
+        font-size: small;
+    }
+    h4 {
+        font-size: small;
+    }
+    .section2 td {
+       
+        padding: 3% 0;
+    }
+    .Feed .center-scroll .darkgrey {
+        font-size: small;
+    }
+    .Feed .center-scroll .inline2 .orange {
+        font-size: small;
+    }
+    .right.Wallet {
+        margin-top: 7%;
+    }
+    .Feed{
+        padding:3%
+    }
+}
+
+@media screen and (max-width: 350px){
+header p {
+    font-size: xx-small;
+}
+
+select, option {
+    font-size: 7px;
+}
+}
